@@ -28,7 +28,6 @@ class MyApp(App):
                 prompt=str(self.input.text)
                 completion=openai.Completion.create(engine=model_engine,prompt=prompt,max_tokens=1024,n=1,stop=None,temperature=0.9)
                 response=completion.choices[0].text
-                # Do something with the input and update the output
                 self.output.text = "ChatGPT : " + response
 
 if __name__ == '__main__':
