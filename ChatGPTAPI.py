@@ -23,7 +23,7 @@ class MyApp(App):
 
         def on_enter(self, *args):
                 self.output0.text=self.input.text
-                openai.api_key="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"
+                openai.api_key="AUTHORISATION_KEY"
                 model_engine="text-davinci-002"
                 prompt=str(self.input.text)
                 completion=openai.Completion.create(engine=model_engine,prompt=prompt,max_tokens=1024,n=1,stop=None,temperature=0.9)
