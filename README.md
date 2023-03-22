@@ -6,7 +6,7 @@ import this code into any runtime that has python drivers.
 
 this code is actually developed on kivy framework.
 
-so, install any builder tools like Buildozer
+so, install any builder tools like Buildozer.
 
 " buildozer android debug deploy" run this command in the parent directory of the app.
 
