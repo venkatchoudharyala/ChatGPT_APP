@@ -12,4 +12,4 @@ so, install any builder tools like Buildozer.
 
 It will deploy the App.
 
-Prefer to use it with any sand box environm
+Prefer to use it with any sand box environme
